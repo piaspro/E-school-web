@@ -27,6 +27,9 @@
     color: white;
     background-color: #21b573;
 }
+.sign-btn:hover{
+    background-color: #2edb8d;
+}
 .get-btn{
     border: none;
     border-radius: 30px;
@@ -34,6 +37,9 @@
     margin-top: 20px;
     color: white;
     background-color: #21b573;
+}
+.get-btn:hover{
+    background-color: #2edb8d;
 }
 .banner-title{
     font-size: 50px;
@@ -52,24 +58,105 @@
 }
 .img-size{
     width: 70px;
+    margin: auto;
+    padding-top: 50px;
 }
-.card{
+.card-deco{
     height: 250px;
     border: none;
     border-radius: 20px;
     background-color: #f0fff0;
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
-.card:hover{
+.card-deco:hover{
     background-color: white;
-    box-shadow: 5px 5px 10px lightgray;
+    box-shadow: 3px 3px 10px 6px lightgray;
 }
-.card-title{
+.title{
     color: #413960;
     font-weight: 600;
+    text-align: center;
 }
 .card-text{
     color: #413960;
     font-size: large;
     font-weight: 600;
+    text-align: center;
+}
+.online-deco{
+    color: #413960;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.courses-card{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 6px lightgray;
+}
+.on-title{
+    color: #413960;
+    font-weight: 650;
+}
+.card-body h5{
+    color: #413960;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: none;
+    background-color: white;
+}
+.card-footer h5{
+    font-weight: 600;
+    font-size: large;
+    color: rgb(73, 73, 73);
+}
+.third-sec{
+    margin-bottom: 50px;
+}
+.card-img-top{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+}
+.test-text{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+.man-photo{
+    width: 300px;
+    margin-right: 50px;
+}
+.testimonial-area{
+    height: 200px;
+    width: 800px;    
+}
+.testimonial-area p{
+    font-size: 18px;
+    font-weight: 550;
+}
+.others-sec{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+footer{
+    background-color: #282531;
+    height: 400px;
+}
+.footer-area{
+    padding-top: 50px;
+}
+.row p, h4, h5{
+    color: white;
+}
+.row h4{
+    font-weight: bolder;
+}
+.copyright-text{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
 }
