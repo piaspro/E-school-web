@@ -19,6 +19,10 @@
 .nav-link{
     color: black !important;
 }
+.nav-link:hover{
+    color: gray !important;
+}
+
 .sign-btn{
     border: none;
     border-radius: 30px;
@@ -169,6 +173,9 @@ footer{
     margin-left: 5px;
     margin-bottom: 50px;
     padding: 0px 15px;
+}
+.search-btn:hover{
+    background-color:#4f4a61;
 }
 .search-area{
     border: 1px solid #282531;
