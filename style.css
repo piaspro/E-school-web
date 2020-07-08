@@ -1,0 +1,75 @@
+.back-img{
+    background-color: #f0fff0;
+}
+.main-part{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.main-img{
+    width: 520px;
+}
+.logo{
+    width: 200px;
+}
+.nav-item{
+    margin: 15px 20px;
+    font-size: large;
+    font-weight: 500;
+}
+.nav-link{
+    color: black !important;
+}
+.sign-btn{
+    border: none;
+    border-radius: 30px;
+    padding: 8px 30px;
+    margin-left: 20px;
+    color: white;
+    background-color: #21b573;
+}
+.get-btn{
+    border: none;
+    border-radius: 30px;
+    padding: 7px 30px;
+    margin-top: 20px;
+    color: white;
+    background-color: #21b573;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.smtext-color{
+    color: #fd511a;
+    font-weight: 550;
+}
+.text-color{
+    color: #21b573;
+}
+.second-sec{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img-size{
+    width: 70px;
+}
+.card{
+    height: 250px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0fff0;
+    transition: all 0.3s ease-in-out;
+}
+.card:hover{
+    background-color: white;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-title{
+    color: #413960;
+    font-weight: 600;
+}
+.card-text{
+    color: #413960;
+    font-size: large;
+    font-weight: 600;
+}
